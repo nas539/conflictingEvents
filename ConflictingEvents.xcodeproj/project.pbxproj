@@ -14,6 +14,7 @@
 		04811CB522EBC6C1004E6F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04811CB322EBC6C1004E6F47 /* LaunchScreen.storyboard */; };
 		04811CC022EBC6C1004E6F47 /* ConflictingEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811CBF22EBC6C1004E6F47 /* ConflictingEventsTests.swift */; };
 		04811CCB22EBC6C1004E6F47 /* ConflictingEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04811CCA22EBC6C1004E6F47 /* ConflictingEventsUITests.swift */; };
+		04811CD922EBC7C6004E6F47 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 04811CD822EBC7C6004E6F47 /* mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		04811CC622EBC6C1004E6F47 /* ConflictingEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConflictingEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04811CCA22EBC6C1004E6F47 /* ConflictingEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictingEventsUITests.swift; sourceTree = "<group>"; };
 		04811CCC22EBC6C1004E6F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04811CD822EBC7C6004E6F47 /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				04811CAA22EBC6BF004E6F47 /* AppDelegate.swift */,
 				04811CAC22EBC6BF004E6F47 /* ViewController.swift */,
 				04811CAE22EBC6BF004E6F47 /* Main.storyboard */,
+				04811CD822EBC7C6004E6F47 /* mock.json */,
 				04811CB122EBC6C1004E6F47 /* Assets.xcassets */,
 				04811CB322EBC6C1004E6F47 /* LaunchScreen.storyboard */,
 				04811CB622EBC6C1004E6F47 /* Info.plist */,
@@ -231,6 +234,7 @@
 				04811CB522EBC6C1004E6F47 /* LaunchScreen.storyboard in Resources */,
 				04811CB222EBC6C1004E6F47 /* Assets.xcassets in Resources */,
 				04811CB022EBC6BF004E6F47 /* Main.storyboard in Resources */,
+				04811CD922EBC7C6004E6F47 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +523,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NicholasSharp.ConflictingEventsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ConflictingEvents;
 			};
@@ -539,7 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NicholasSharp.ConflictingEventsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ConflictingEvents;
 			};
